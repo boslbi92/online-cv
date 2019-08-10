@@ -1,39 +1,25 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
 <section class="section projects-section">
-
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    {{ projects.title }}
+    Projects
   </h2>
 
-
-<!--  {% for project in projects.assignments %}-->
-<!--    <div class="item">-->
-
-<!--      <span class="project-title">-->
-<!--        <a href="{{ project.link }}">{{ project.title }}</a>-->
-<!--      </span>-->
-
-<!--      {% if project.tagline %}-->
-<!--      <div class="project-tagline">-->
-<!--        {{ project.tagline | markdownify }}-->
-<!--      {% endif %}-->
-
-  {% for project in projects.assignments %}
+  {% for experience in experiences %}
   <div class="item">
+
     <div class="meta">
+
       <div class="upper-row">
-        <span class="project-title">
-          <a href="{{ project.link }}">{{ project.title }}</a>
-        </span>
+        <h3 class="project-title">{{ project.title }}</h3>
         <div class="project-time">{{ project.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="sponsor">{{ project.funding }}</div>
+      <div class="company">{{ project.company }}</div>
 
     </div><!--//meta-->
 
@@ -43,7 +29,7 @@
     </div><!--//details-->
     {% endif %}
 
-    </div><!--//item-->
+  </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
