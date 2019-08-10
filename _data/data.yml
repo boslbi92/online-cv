@@ -41,40 +41,28 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I am a 2nd year M.S. student in computer science (data & ML track) at Emory University
+      with 2+ years of R&D background in conversational AI, dialogue management and NLU.
 
-      Second paragraph if required.
+      Our research team has been selected from 400+ universities for all three rounds of Alexa Prize Grand Challenge ('17, '18, '19) to apply research ideas to real-world conversational product.
+      I am one of the original authors of our agent Irisbot, an open-domain socialbot developed during these years.
+
+      Currently, I am working on a thesis about a real-time satisfaction prediction model for conversational systems that
+      can be applied to automated performance evaluation and adaptive dialogue strategies.
+      My other projects include user intent classification, named entity resolution and neural response generation with adversarial learning.
+      My expected graduation date is May 2020.
+
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+    - degree: M.S. in Computer Science (data science & ML track)
+      university: Emory University
+      time: 2018-2020
+      details:
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: B.S. in Computer Science & Mathematics
+      university: Emory University
+      time: 2010 - 2017
+      details:
 
 experiences:
     - role: Lead Developer
@@ -128,25 +116,13 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
+      - title: Alexa Prize 2019
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Alexa Prize"
 
-      - title: DevStudio
+      - title: Alexa Prize 2017 & 2018
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Alexa Prize"
 
 publications:
     title: Publications
@@ -171,27 +147,16 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
         link: "www.google.com"
 
-#skills:
-#    title: Skills &amp; Proficiency
-#
-#    toolset:
-#      - name: Python & Django
-#        level: 98%
-#
-#      - name: Javascript & jQuery
-#        level: 98%
-#
-#      - name: Angular
-#        level: 98%
-#
-#      - name: HTML5 & CSS
-#        level: 95%
-#
-#      - name: Ruby on Rails
-#        level: 85%
-#
-#      - name: Sketch & Photoshop
-#        level: 60%
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level:
+
+      - name: Javascript & jQuery
+        level:
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
