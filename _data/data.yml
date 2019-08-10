@@ -114,11 +114,14 @@ projects:
     assignments:
       - title: Alexa Prize 2018
         link: "www.google.com"
-        time: 2018 - 2018
-        company: Amazon Alexa
+        time: Feb, 2018 - Nov, 2018
+        company: Funded by Amazon Alexa
         details: |
-            - Bullet point
-            - Bullet point
+            - Ranked 4th place worldwide in semi-finals among 195 prominent universities from 15 different nations
+            - Extended the state of the art in information-oriented conversational agents by designing effective strategies that integrate
+              contextual information, real-time data and auxiliary conversational features into an engaging conversation
+            - Managed the overall integration of Irisbot’s NLU pipeline and optimization of our system
+            - Created question-answering and recommendation modules using social media archives
 
 
 publications:
