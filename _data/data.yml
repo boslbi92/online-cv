@@ -117,11 +117,14 @@ projects:
         time: Feb, 2018 - Nov, 2018
         company: Funded by Amazon Alexa
         details: |
-            - Ranked 4th place worldwide in semi-finals among 195 prominent universities from 15 different nations
-            - Extended the state of the art in information-oriented conversational agents by designing effective strategies that integrate
-              contextual information, real-time data and auxiliary conversational features into an engaging conversation
-            - Managed the overall integration of Irisbot’s NLU pipeline and optimization of our system
+            Overall, our research team extended the state of the art in information-oriented conversational systems by designing
+            effective strategies to integrate contextual information and real-time data into engaging conversations.
+            My main responsibility was to design and manage the overall integration of Irisbot's architecture, including NLU pipelines
+            and response generation modules. Here are short summaries of my contributions.
+
+            - Managed the overall integration of Irisbot’s architecture including data flow, maintenance and optimization
             - Created question-answering and recommendation modules using social media archives
+            - Ranked 4th place worldwide in semi-finals among 195 prominent universities from 15 different nations
 
 
 publications:
