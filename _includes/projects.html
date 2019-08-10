@@ -10,11 +10,6 @@
     {{ projects.title }}
   </h2>
 
-  {% if projects.intro %}
-  <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
 
   {% for project in projects.assignments %}
     <div class="item">
@@ -26,8 +21,27 @@
       {% if project.tagline %}
       <div class="project-tagline">
         {{ project.tagline | markdownify }}
-<!--      - <span class="project-tagline">{{ project.tagline }}</span>-->
       {% endif %}
+
+  {% for project in projects.assignments %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <span class="project-title">
+          <a href="{{ project.link }}">{{ project.title }}</a>
+        </span>
+        <div class="project-time">{{ project.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="sponsor">{{ project.funding }}</div>
+
+    </div><!--//meta-->
+
+    {% if project.details %}
+    <div class="details">
+      {{ project.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
 
     </div><!--//item-->
   {% endfor %}

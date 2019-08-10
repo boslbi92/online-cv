@@ -110,26 +110,19 @@ experiences:
 
 projects:
     title: Projects
-#    intro:
+    # intro:
     assignments:
-      - title: Alexa Prize 2019
-        link: "#hook"
-        tagline: |
-
+      - title: Alexa Prize 2018
+        link: "www.google.com"
+        time: 2018 - 2018
+        funding: Amazon Alexa
+        details: |
             - Bullet point
             - Bullet point
 
-      - title: Alexa Prize 2017 & 2018
-        link: "#"
-        tagline: "Alexa Prize"
 
 publications:
     title: Publications
-#    intro: |
-#      You can list your publications in this section. Lorem ipsum dolor sit
-#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#      bibendum fringilla a eu lectus.
-
     papers:
       - title: The Art of Computer Programming
         authors: Donald E. Knuth
